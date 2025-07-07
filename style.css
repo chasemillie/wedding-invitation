@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center;
+}
+
+.invitation-container {
+  background-color: #fff;
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 8px;
+  max-width: 600px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #d78b8b;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.details {
+  background-color: #f3f3f3;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.rsvp a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #d78b8b;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.rsvp a:hover {
+  background-color: #c86c6c;
+}
